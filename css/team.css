@@ -111,8 +111,8 @@ img {
     width: 40px;
     height: 40px;
     background: var(--iris);
-    transition-timing-function:250ms;
-    transition-property: background-color;
+transition-property: background-color;
+    transition-duration: 250ms;
    
 }
 

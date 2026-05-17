@@ -63,13 +63,14 @@
     padding: 16px 32px;
     border: none;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            transition-property: background-color;
+                transition-duration: 250ms;
 
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    transition-property: color;
-        transition-duration: 250ms;
+
     background: #404bbf;
     color: var(--white);
 }

@@ -103,7 +103,7 @@
     fill: var(--cloud);
 }
 
-.icons-footer:hover
+.icons-footer:hover,
 .icons-footer:focus {
     background: var(--green);
     transition-property: background-color;
