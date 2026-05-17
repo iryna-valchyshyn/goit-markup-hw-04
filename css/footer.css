@@ -95,6 +95,8 @@
     width: 40px;
     height: 40px;
     background: var(--iris);
+    transition-property: background-color;
+        transition-duration: 250ms;
 }
 
 .illustration-footer {
@@ -104,6 +106,6 @@
 .icons-footer:hover
 .icons-footer:focus {
     background: var(--green);
-    transition-property: color;
+    transition-property: background-color;
         transition-duration: 250ms;
 }

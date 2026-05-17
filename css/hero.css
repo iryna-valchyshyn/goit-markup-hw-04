@@ -62,13 +62,14 @@
     border-radius: 4px;
     padding: 16px 32px;
     border: none;
-    transition-property: color;
-        transition-duration: 250ms;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition-property: color;
+        transition-duration: 250ms;
     background: #404bbf;
     color: var(--white);
 }
