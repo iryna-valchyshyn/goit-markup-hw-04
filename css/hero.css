@@ -52,7 +52,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white);
-    background: var(--iris);
+    background-color: var(--iris);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -71,6 +71,6 @@
 .hero-button:hover,
 .hero-button:focus {
 
-    background: #404bbf;
+    background-color: #404bbf;
     color: var(--white);
 }
