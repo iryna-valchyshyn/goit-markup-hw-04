@@ -13,7 +13,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 120px;
+    gap: 0;
     padding: 0px 15px;
     max-width: 1158px;
     margin: 0 auto;
@@ -26,6 +26,7 @@
     flex-direction: column;
     gap: 16px;
     max-width: 264px;
+    padding-left: 0;
 }
 
 .logo-footer{
@@ -60,6 +61,7 @@
     gap: 16px;
     width: 208px;
     height: 80px;
+    padding-left: 120px;
 }
 
 .caption {
@@ -99,6 +101,9 @@
     fill: var(--cloud);
 }
 
-.icons-footer:hover {
+.icons-footer:hover
+.icons-footer:focus {
     background: var(--green);
+    transition-property: color;
+        transition-duration: 250ms;
 }

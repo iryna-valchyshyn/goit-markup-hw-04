@@ -111,12 +111,15 @@ img {
     width: 40px;
     height: 40px;
     background: var(--iris);
+    transition-property: color;
+        transition-duration: 250ms;
 }
 
 .illustration {
     fill: var(--cloud);
 }
 
-.icons:hover {
+.icons:hover,
+.icons:focus {
     background: var(--ocean);
 }
