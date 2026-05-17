@@ -1,0 +1,104 @@
+.footer {
+    background: var(--navy-blue);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    padding: 100px 0px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 120px;
+    padding: 0px 15px;
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 264px;
+}
+
+.logo-footer{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+
+    /* line-height: 24px; */
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cloud);
+}
+
+.footer-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+
+.socials-link-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 208px;
+    height: 80px;
+}
+
+.caption {
+    font-family: var(--font-family);
+    font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--white);
+}
+
+.social-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+}
+
+.icons-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background: var(--iris);
+}
+
+.illustration-footer {
+    fill: var(--cloud);
+}
+
+.icons-footer:hover {
+    background: var(--green);
+}
