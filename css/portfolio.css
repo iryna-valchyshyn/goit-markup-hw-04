@@ -60,9 +60,9 @@ display: flex;
 }
 
 .portfolio-li:hover,
-.portfolio-li:focus .overlay {
+.portfolio-li:focus  {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    transform: translateY(0);
+  
 }
 
 .img-portfolio {
@@ -78,9 +78,8 @@ display: flex;
             min-height: 239px;
             max-height: 300px;
             position: relative;
-            overflow: hidden;
-            position: relative;
 }
+
 
 .portfolio-blok {
     display: flex;
@@ -95,7 +94,7 @@ display: flex;
     background: var(--white);
     width: 360px;
     height: 120px;
-    position: absolute;
+
 }
 
 .portfolio-mini-title {
@@ -126,18 +125,21 @@ img {
 }
 
 .overlay {
-    position: relative;
-padding: 40px 32px;
-    width: 360px;
-    height: 300px;
-    min-height: 240px;
-    max-height: 300px;
-    background: var(--iris);
-    overflow: hidden;
+    position: absolute;
+        padding: 40px 32px;
+        width: 360px;
+        height: 300px;
+        min-height: 240px;
+        max-height: 300px;
+        background: var(--iris);
+        overflow: hidden;
+        opacity: 0;
+        transform: translatey(100%);
+            transition: transform 250ms ease-in-out;
 }
 
 .p-overlay {
-    position: absolute;
+    padding: 40px 32px;
 font-family: var(--font-family);
 font-weight: 400;
     font-size: 16px;
@@ -146,7 +148,9 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
-    transform: translatey(100%);
-        transition: transform 250ms ease-in-out;
+
 }
 
+.img-portfolio:hover .overlay {
+    opacity: 1;
+}
