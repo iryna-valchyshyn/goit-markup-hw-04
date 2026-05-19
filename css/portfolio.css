@@ -132,6 +132,8 @@ img {
 
 .overlay {
     position: absolute;
+    top: 0;
+        left: 0;
         padding: 40px 32px;
         width: 360px;
         height: 300px;
