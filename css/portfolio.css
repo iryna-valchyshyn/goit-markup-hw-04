@@ -60,10 +60,14 @@ display: flex;
             transition-timing-function: ease;
 }
 
-.portfolio-li:hover .overlay,
-.portfolio-li:focus .overlay  {
+.portfolio-li:hover,
+.portfolio-li:focus {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 
+.portfolio-li:hover .overlay,
+.portfolio-li:focus .overlay {
+    transform: translatey(0);
 }
 
 .img-portfolio {
@@ -134,9 +138,7 @@ img {
         min-height: 240px;
         max-height: 300px;
         background: var(--iris);
-       
                 transform: translatey(100%);
-
             transition: transform 250ms ease-in-out;
 }
 
@@ -144,7 +146,6 @@ img {
 font-family: var(--font-family);
 font-weight: 400;
     font-size: 16px;
-
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
